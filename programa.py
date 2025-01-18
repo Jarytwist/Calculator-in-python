@@ -79,3 +79,18 @@ def promedio():
         print("El promedio es:", sum(numeros) / len(numeros))
     else:
         print("No se ingresaron números.")
+
+# pOperación de maximo y minimo
+def max_min():
+    numeros = []
+    while True:
+        num = float(input("Ingrese un número (-1 para terminar): "))
+        if num == -1:
+            break
+        numeros.append(num)
+    if len(numeros) > 0:
+        print("El valor máximo es:", max(numeros))
+        print("El valor mínimo es:", min(numeros))
+        print("Total de valores ingresados:", len(numeros))
+    else:
+        print("No se ingresaron números.")
