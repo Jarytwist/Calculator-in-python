@@ -94,3 +94,59 @@ def max_min():
         print("Total de valores ingresados:", len(numeros))
     else:
         print("No se ingresaron números.")
+
+#Función principal
+def main():
+    while True:
+        menu()
+        opcion = int(input("Ingrese su opción: "))
+        if opcion == 1:
+            suma_numeros()
+        elif opcion == 2:
+            producto_numeros()
+        elif opcion == 3:
+            division()
+        elif opcion == 4:
+            factorial()
+        elif opcion == 5:
+            tablas_multiplicar()
+        elif opcion == 6:
+            cuadrado_cubo()
+        elif opcion == 7:
+            promedio()
+        elif opcion == 8:
+            max_min()
+        elif opcion == 9:
+            print("Saliendo...")
+            break
+        else:
+            print("Opción inválida, intente de nuevo.")
+
+def main():
+    while True:
+        menu()
+        opcion = int(input("Ingrese su opción: "))
+        if opcion == 1:
+            suma_numeros()
+        elif opcion == 2:
+            producto_numeros()
+        elif opcion == 3:
+            division()
+        elif opcion == 4:
+            factorial()
+        elif opcion == 5:
+            tablas_multiplicar()
+        elif opcion == 6:
+            cuadrado_cubo()
+        elif opcion == 7:
+            promedio()
+        elif opcion == 8:
+            max_min()
+        elif opcion == 9:
+            print("Saliendo...")
+            break
+        else:
+            print("Opción inválida, intente de nuevo.")
+
+if __name__ == "__main__":
+    main()
