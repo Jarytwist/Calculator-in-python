@@ -20,3 +20,17 @@ def suma_numeros():
             break
         numeros.append(num)
     print("La suma es:", sum(numeros))
+
+#Operaciones de productos
+# programa.py
+def producto_numeros():
+    numeros = []
+    while True:
+        num = float(input("Ingrese un número (-1 para terminar): "))
+        if num == -1:
+            break
+        numeros.append(num)
+    producto = 1
+    for n in numeros:
+        producto *= n
+    print("El producto es:", producto)
