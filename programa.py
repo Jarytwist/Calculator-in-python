@@ -42,3 +42,15 @@ def division():
         print("El resultado de la división es:", num1 / num2)
     else:
         print("Error: División entre cero.")
+
+# Operación factorial
+def factorial(n):
+    if n < 0:
+        return "Error: No se puede calcular el factorial de un número negativo."
+    elif n == 0:
+        return 1
+    else:
+        resultado = 1
+        for i in range(1, n + 1):
+            resultado *= i
+        return resultado
