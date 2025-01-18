@@ -22,7 +22,6 @@ def suma_numeros():
     print("La suma es:", sum(numeros))
 
 #Operaciones de productos
-# programa.py
 def producto_numeros():
     numeros = []
     while True:
