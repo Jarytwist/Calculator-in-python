@@ -10,3 +10,13 @@ def menu():
     print("7. Promedio de una serie de números")
     print("8. Valores máximo y mínimo")
     print("9. Salir")
+
+#Operaciones de suma
+def suma_numeros():
+    numeros = []
+    while True:
+        num = float(input("Ingrese un número (-1 para terminar): "))
+        if num == -1:
+            break
+        numeros.append(num)
+    print("La suma es:", sum(numeros))
