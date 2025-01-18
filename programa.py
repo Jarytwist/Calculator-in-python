@@ -33,3 +33,12 @@ def producto_numeros():
     for n in numeros:
         producto *= n
     print("El producto es:", producto)
+
+# Operaciones de división
+def division():
+    num1 = float(input("Ingrese el numerador: "))
+    num2 = float(input("Ingrese el denominador: "))
+    if num2 != 0:
+        print("El resultado de la división es:", num1 / num2)
+    else:
+        print("Error: División entre cero.")
