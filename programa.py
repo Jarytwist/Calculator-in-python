@@ -54,3 +54,15 @@ def factorial(n):
         for i in range(1, n + 1):
             resultado *= i
         return resultado
+
+# Operación de tablas de multiplicación
+def tablas_multiplicar():
+    numero = int(input("Ingrese el número para la tabla de multiplicar: "))
+    for i in range(1, 11):
+        print(f"{numero} x {i} = {numero * i}")
+
+# Operación de cuadrado y cubo
+def cuadrado_cubo():
+    num = float(input("Ingrese un número: "))
+    print("El cuadrado es:", num ** 2)
+    print("El cubo es:", num ** 3)
