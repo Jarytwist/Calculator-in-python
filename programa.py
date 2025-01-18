@@ -66,3 +66,16 @@ def cuadrado_cubo():
     num = float(input("Ingrese un número: "))
     print("El cuadrado es:", num ** 2)
     print("El cubo es:", num ** 3)
+
+# OPeración de promedio
+def promedio():
+    numeros = []
+    while True:
+        num = float(input("Ingrese un número (-1 para terminar): "))
+        if num == -1:
+            break
+        numeros.append(num)
+    if len(numeros) > 0:
+        print("El promedio es:", sum(numeros) / len(numeros))
+    else:
+        print("No se ingresaron números.")
